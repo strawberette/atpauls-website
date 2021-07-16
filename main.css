@@ -1,0 +1,312 @@
+p, a{
+    color: antiquewhite;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Uchen', serif;
+    font-size: 16pt;
+}
+a{
+    color: #FCAA2B;
+}
+h1,h2{
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #FCAA2B;
+}
+.large { font-size: 50px; }
+.center { text-align: center; }
+.backgroundindex{
+    background: url(edwards-lee-Mp8uedEcPfI-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.backgroundmenu{
+    background-image: url(jon-tyson-FsYZE4ZZKJY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 75% 50%;
+    background-size: cover;
+}
+.backgroundstory{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+.backgroundstory1{
+    background-image: url(vianney-cahen-1zGSFvPGMuo-unsplash.jpg);
+    background-position:center center;
+    background-size: 60%;
+    background-color: #201B14;
+}
+
+.backgroundstory2{
+    background-image: url(ash-edmonds-mzoivEr2G2w-unsplash.jpg);
+    background-position:center center;
+    background-size: 40%;
+    background-color: #050402;
+}
+.backgroundstory3{
+    background-image: url(eugene-chystiakov-xhXj7EDX6EY-unsplash.jpg);
+    background-position:center center;
+    /* background-size: 60%; */
+    background-color: #201B14;
+}
+.backgroundstory3 p{
+    color: #FCAA2B;
+}
+.backgroundstory4{
+    background-image: url(matthew-ball-wMFtiaeAxIs-unsplash.jpg);
+    background-position:center center;
+    background-size: 40%;
+    background-color: #201B14;
+}
+.backgroundcontact{
+    background-image: url(david-rangel-nj4Ar5YQYRY-unsplash.jpg);
+}
+.backgroundaboutme{
+    background-image: url(sergio-alves-santos-PeDrafNlY2Y-unsplash.jpg);
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2em;
+    margin-right: 50px;
+}
+.navigation a{
+    border: 1px solid #FCAA2B;
+    padding: 10px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #DBC97B;
+    border-color: #DBC97B;
+}
+.backgroundstory3 .navigation a{
+    border: 1px solid #FCAA2B;
+    background-color:#FCAA2B;
+    color: #9E1066;
+    padding: 10px;
+    text-decoration: none;
+}
+.backgroundstory3 .navigation a:hover{
+    border-color: #DBC97B;
+    background-color:#DBC97B;
+    color: #9E1066;
+}
+.backgroundaboutme .navigation a{
+    border: 1px solid #9E1066;
+    background-color:#9E1066;
+    color: #FCAA2B;
+    padding: 10px;
+    text-decoration: none;
+}
+.backgroundaboutme .navigation a:hover{
+    color: #DBC97B;
+    border-color: #25114B;
+    background-color:#25114B;
+    
+}
+.welcome{
+    text-align: center;
+
+}
+.menu{
+
+    text-align: center;
+}
+.menucontainer{
+    width: 45%;
+}
+.storiescontainer{
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+}
+.storiescontainer li p{
+
+    text-align: center;
+}
+.storiescontainer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid #FCAA2B;
+}
+
+/* #button{
+    align-items: flex-end;
+    padding:15px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: rgba(255, 99, 71, 0.8);
+    border: 1px solid #FCAA2B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+} */
+#button{
+    align-items: flex-end;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    /* background-color: rgba(255, 99, 71, 0.8);
+    border: 1px solid #FCAA2B; */
+    /* background-color: #0A4D8B; */
+    border: 1px solid #FCAA2B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+#button a{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    display: block;
+    margin-top: 50px;
+}
+
+.buttoncontainer{
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+
+}
+.aboutpaul{
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    line-height: 1.3em;
+    background: rgba(0, 0, 0, 0.400);
+    border: 1px solid #FCAA2B;
+    padding: 10px 40px
+}
+.contact{
+    width:500px;
+    margin-left: 20%;
+    margin-right: 80%;
+    margin-top: 400px;
+    line-height: 2.5em;
+    border: 1px solid #FCAA2B;
+    padding: 10px 40px
+}
+.contact a:hover{
+    color: #DBC97B;
+    
+}
+.stories{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    line-height: 1.3em;
+    background: rgba(0, 0, 0, 0.400);
+    border: 1px solid #FCAA2B;
+    padding: 10px 40px
+}
+.story3{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    line-height: 1.3em;
+    background: rgba(0, 0, 0, 0.400);
+    border: 1px solid #FCAA2B;
+    padding: 10px 40px
+}
+.music{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    line-height: 1.3em;
+    color: #FCAA2B;
+    text-align: center;
+}
+
+footer p{
+    color: antiquewhite;
+    display: block;
+    font-size: 10pt;
+   
+}
+footer a{
+    font-size: 10pt;
+}
+footer{
+    text-align: right;
+    
+}
+
+
+.logo2 {
+    text-align: center;
+    font-size: 16pt;
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     user-select: none;
+  }
+  
+  .logo2 b{
+    font: 400 48pt "Vibur";
+    color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+  }
+  .logo2 b span{
+    animation: blink linear infinite 2s;
+  }
+  .logo2 b span:nth-of-type(2){
+    animation: blink linear infinite 3s;
+  }
+  @keyframes blink {
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79%{
+       color: #333;
+    }
+    80% {
+      
+      text-shadow: none;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #333;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+  
+  
+  
+  
